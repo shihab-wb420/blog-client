@@ -4,6 +4,8 @@ import{useNavigate} from "react-router-dom"
 import PublicPost from "../components/post/publicPost"
 import Loader from  "../components/loader/Loader"
 //const url = "http://localhost:8000"
+const url = "https://blog-backend-wb505.vercel.app"
+
 
 const Home = () => {
   
