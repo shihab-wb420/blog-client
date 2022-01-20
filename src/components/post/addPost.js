@@ -1,6 +1,7 @@
 // import from " ";
 import {useState} from "react"
-  const url = "http://localhost:8000"
+  //const url = "http://localhost:8000"
+  const url = "https://blog-backend-wb505.vercel.app"
 
 const AddPost = () => {
   const [postData, setPostData] = useState({

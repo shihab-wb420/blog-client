@@ -1,6 +1,7 @@
 // import from " ";
 import { useState, useEffect} from "react";
-  const url = "http://localhost:8000"
+//  const url = "http://localhost:8000"
+const url = "https://blog-backend-wb505.vercel.app"
 
 const Comment = ({post_id}) => {
   const [error,setError] = useState(false)

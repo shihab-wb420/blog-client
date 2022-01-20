@@ -3,7 +3,7 @@ import {useState,useEffect} from "react"
 import{useNavigate} from "react-router-dom"
 import PublicPost from "../components/post/publicPost"
 import Loader from  "../components/loader/Loader"
-const url = "http://localhost:8000"
+//const url = "http://localhost:8000"
 
 const Home = () => {
   

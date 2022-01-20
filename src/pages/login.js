@@ -1,7 +1,8 @@
 // import from " ";
 import{ useNavigate, Link} from "react-router-dom"
 import {useState, useEffect} from "react"
-const url ="http://localhost:8000"
+//const url ="http://localhost:8000"
+const url = "https://blog-backend-wb505.vercel.app"
 
 const Login = () => {
   const navigate = useNavigate();

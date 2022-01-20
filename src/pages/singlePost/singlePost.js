@@ -6,7 +6,8 @@ import { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import Comment from "../../components/post/comment"
 import Loader from  "../../components/loader/Loader"
-const url = "http://localhost:8000"
+//const url = "http://localhost:8000"
+const url = "https://blog-backend-wb505.vercel.app"
 
 const SinglePost = () => {
   const location = useLocation();

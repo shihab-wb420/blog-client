@@ -1,7 +1,8 @@
 
 //import { useNavigate, Link} from "react-router-dom";
 import {useState, useEffect} from "react"
-const url ="http://localhost:4000"
+//const url ="http://localhost:4000"
+const url = "https://blog-backend-wb505.vercel.app"
 
 const ProfileDetails = (props) => {
  //const [loading,  setLoading] = useState(false);

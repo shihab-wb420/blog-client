@@ -1,6 +1,7 @@
 import {useState,useEffect} from "react"
 import Loader from  ".././loader/Loader"
-  const url = "http://localhost:8000"
+  //const url = "http://localhost:8000"
+const url = "https://blog-backend-wb505.vercel.app"
 
 const PrivatePost = () => {
   const [postDb, setPostDb] = useState([]);

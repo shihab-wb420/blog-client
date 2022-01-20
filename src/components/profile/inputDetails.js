@@ -1,6 +1,7 @@
 //import { useNavigate, Link} from "react-router-dom";
 import {useState} from "react"
-const url ="http://localhost:4000"
+//const url ="http://localhost:4000"
+const url = "https://blog-backend-wb505.vercel.app"
 
 const InputDetails= () => {
  // const navigate = useNavigate()
